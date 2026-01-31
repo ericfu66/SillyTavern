@@ -3,7 +3,7 @@
 dataRoot: ./data
 # -- SERVER CONFIGURATION --
 # Listen for incoming connections
-listen: false
+listen: true
 # Listen on a specific address, supports IPv4 and IPv6
 listenAddress:
   ipv4: 0.0.0.0
@@ -58,6 +58,7 @@ enableForwardedWhitelist: true
 whitelist:
   - ::1
   - 127.0.0.1
+  - 192.168.0.*
 # Automatically whitelist Docker host and gateway IPs
 whitelistDockerHosts: true
 # Toggle basic authentication for endpoints
@@ -79,7 +80,7 @@ requestProxy:
     - localhost
     - 127.0.0.1
 # Enable multi-user mode
-enableUserAccounts: false
+enableUserAccounts: true
 # Enable discreet login mode: hides user list on the login screen
 enableDiscreetLogin: false
 # If `basicAuthMode` and this are enabled then
