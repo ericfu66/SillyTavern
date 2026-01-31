@@ -878,7 +878,7 @@
         "extensions": {}
     },
     "oai_settings": {
-        "preset_settings_openai": "Default",
+        "preset_settings_openai": "Izumi_0124",
         "temp_openai": 1,
         "freq_pen_openai": 0,
         "pres_pen_openai": 0,
